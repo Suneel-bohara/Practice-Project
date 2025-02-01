@@ -10,7 +10,7 @@ function calculateBMI() {
   
     // Validate inputs
     if (weight === "" || height === "" || weight <= 0 || height <= 0) {
-        document.getElementById('result').innerHTML = "❌ Please enter valid weight and height!";
+        document.getElementById('result').innerHTML = "❌ Dimag chaina!! Valid data rakheko khai?";
         return;
     }
   
@@ -21,13 +21,13 @@ function calculateBMI() {
     // Determine BMI category
     let category;
     if (bmi < 18.5) {
-        category = "Underweight 🟡";
+        category = " भयो दाइ छोड्दिम, लास्टै दुब्लो पातलो छ। 🕴️";
     } else if (bmi >= 18.5 && bmi < 24.9) {
-        category = "Normal Weight ✅";
+        category = "ठिक छ! ठिक छ! ✅";
     } else if (bmi >= 25 && bmi < 29.9) {
-        category = "Overweight ⚠️";
+        category = "अरुको लागि पनि छोड्दिन्न हो खानेकुरा !!🫃🏻";
     } else {
-        category = "Obese ❌";
+        category = "कति मोटो हो ? बाँच्नकै लागि खाको रहेछ। 😋🍽️";
     }
   
     // Display result
