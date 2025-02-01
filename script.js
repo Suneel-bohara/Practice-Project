@@ -6,7 +6,7 @@ function calculateBMI() {
   
   
     // Convert height from cm to meters
-    height = height / 100;
+    height = height * 0.3048;
   
     // Validate inputs
     if (weight === "" || height === "" || weight <= 0 || height <= 0) {
