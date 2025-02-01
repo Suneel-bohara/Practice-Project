@@ -10,7 +10,7 @@ function calculateBMI() {
   
     // Validate inputs
     if (weight === "" || height === "" || weight <= 0 || height <= 0) {
-        document.getElementById('result').innerHTML = "❌ Dimag chaina!! Valid data rakheko khai?";
+        document.getElementById('result').innerHTML = "🧠 दिमाग छैन? Valid data राखम न हो।";
         return;
     }
   
